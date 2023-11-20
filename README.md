@@ -1,5 +1,22 @@
 # Create a public bucket for minio automatically
 
+## Usage
+
+- Change .env
+
+   change environment with your custom data
+
+- Follow helps for executing NodeJs or Python script
+
+## NodeJs
+
+```shell
+npm i
+npm start
+```
+
+## Python
+
 - Add venv
 
 ```shell
@@ -24,10 +41,6 @@ venv\Scripts\Activate.ps1
 ```shell
 pip install -r requirements.txt
 ```
-- Change .env
-
-   change environment with your custom data
-
 
 - Run scripts
 

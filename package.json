@@ -1,0 +1,28 @@
+{
+  "name": "create-public-minio-bucket",
+  "version": "1.0.0",
+  "description": "create public minio bucket automatically",
+  "main": "create_public_bucket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node create_public_bucket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrajaeim/create-public-minio-bucket.git#main"
+  },
+  "keywords": [
+    "minio",
+    "automation"
+  ],
+  "author": "mrajaeim.pro@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrajaeim/create-public-minio-bucket/issues"
+  },
+  "homepage": "https://github.com/mrajaeim/create-public-minio-bucket/tree/main#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "minio": "^7.1.3"
+  }
+}
